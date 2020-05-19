@@ -1,5 +1,5 @@
 {
-    "name": "sofa/eloquence-base",
+    "name": "siteonline/eloquence-base",
     "description": "Flexible Searchable, Mappable, Metable, Validation and more extensions for Laravel Eloquent ORM.",
     "license": "MIT",
     "support": {
@@ -22,9 +22,15 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://git.falcon.zone/siteonline/eloquence-base.git"
+        }
+    ],
     "require": {
         "php": ">=7.0.0",
-        "sofa/hookable": "^5.5|^6.0|^7.0",
+        "siteonline/hookable": "^5.5|^6.0|^7.0",
         "illuminate/database": "^5.5|^6.0|^7.0"
     },
     "require-dev": {
